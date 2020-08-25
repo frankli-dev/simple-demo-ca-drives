@@ -1,0 +1,29 @@
+.user {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 10px;
+  &-name {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+  }
+  button {
+    width: 40px;
+    height: 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: white;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  &-score {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin-left: 50px;
+  }
+}
